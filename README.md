@@ -6,3 +6,5 @@ Implemented in python 3.6
 Install gym & pynput  
 
 Used Parallel processing to emulate keyboard/mouse.
+
+For mouse emulation use Mouse Emulator file 
