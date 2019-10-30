@@ -32,12 +32,6 @@ while True:
 				t1on_start = perf_counter_ns() 
 				while((perf_counter_ns()-t1on_start)<Th_t): 
 					pass
-			
-			
-			
-			
-			
-			
 			if(data>Th_angle1):
 				keyboard.press('d')
 				t1_start = perf_counter_ns() 
@@ -53,7 +47,4 @@ while True:
 			else:
 				keyboard.release('a')
 				keyboard.release('d')
-			
-			
-			
-			
+	
