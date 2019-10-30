@@ -9,19 +9,13 @@ from pynput.mouse import Button, Controller
 from gym.utils.play import play
 from gym.utils.play import PlayPlot
 
-
-
 def serial_read():
 	ser = serial.Serial("COM11", 9600)
 	#Balance
 	xx=682
 	dx=245
 	yy=550
-	
-	#Neon Pong
-	
-	
-	
+
 	mouse_factor=5
 	mouse = Controller()
 	mouse.position = (xx, yy)
@@ -48,6 +42,4 @@ if __name__== "__main__":
 
 	process_serial_read.join()
 
-	
-			
 			
